@@ -10,4 +10,8 @@ class IdeaDemoDevcontainersApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    void contextLoads2() {
+    }
+
 }
