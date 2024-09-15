@@ -4,6 +4,9 @@
 	"name": "idea-demo",
 //	Or use a Dockerfile here, more info: https://containers.dev/guide/dockerfile
 	"image":  "openjdk:11",
+	"hostRequirements": {
+		"cpus": 4
+	},
 	"features": {
 		"ghcr.io/devcontainers/features/sshd:1": ""
 	}
